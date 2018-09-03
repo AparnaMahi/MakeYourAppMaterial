@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- declare the app theme name that's actually applied in the manifest file -->
+    <style name="Theme.Bacon" parent="BaseAppTheme">
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+    </style>
+
+
+    <style name="Theme.Bacon.Detail">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
